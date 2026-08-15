@@ -10,8 +10,8 @@ export default function Home() {
     <main>
       <header className="siteHeader">
         <Link className="brand" href="/" aria-label="BIM Specialist Software home">
-          <span className="brandMark">BS</span>
-          <span><strong>BIM Specialist</strong><small>Software</small></span>
+          <span className="brandMark">B</span>
+          <span><strong>BIM</strong><small>Specialist</small></span>
         </Link>
         <nav aria-label="Main navigation">
           <Link href="/privacy">Privacy</Link>
@@ -60,3 +60,4 @@ export function Footer() {
     </footer>
   );
 }
+
