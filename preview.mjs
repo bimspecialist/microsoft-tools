@@ -1,5 +1,5 @@
 import http from "node:http";
-import site from "./dist/server/index.js";
+import site from "./worker/static-site.js";
 
 const server = http.createServer(async (req, res) => {
   const response = await site.fetch(new Request(`http://127.0.0.1:4173${req.url}`));
@@ -8,3 +8,4 @@ const server = http.createServer(async (req, res) => {
 });
 
 server.listen(4173, "127.0.0.1", () => console.log("Local URL: http://127.0.0.1:4173"));
+
