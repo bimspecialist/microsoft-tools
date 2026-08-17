@@ -1,0 +1,31 @@
+backend:
+  name: github
+  repo: bimspecialist/toolbox-suite-support
+  branch: content-editor
+  auth_methods: [token]
+
+site_url: https://bimspecialist.github.io/toolbox-suite-support/
+display_url: https://bimspecialist.github.io/toolbox-suite-support/
+media_folder: docs/uploads
+public_folder: /toolbox-suite-support/uploads
+publish_mode: simple
+
+collections:
+  - name: site
+    label: Toolbox Suite
+    files:
+      - name: content
+        label: Site Content
+        file: content/site.json
+        format: json
+        fields:
+          - {label: Product name, name: product_name, widget: string}
+          - {label: Version, name: version, widget: string}
+          - {label: Headline, name: headline, widget: string}
+          - {label: Arabic headline, name: headline_ar, widget: string, required: false}
+          - {label: Description, name: description, widget: text}
+          - {label: Arabic description, name: description_ar, widget: text, required: false}
+          - label: Screenshots
+            name: screenshots
+            widget: list
+            field: {label: Image, name: image, widget: image}
