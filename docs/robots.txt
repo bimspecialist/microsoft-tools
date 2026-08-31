@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /admin/
 
-Sitemap: https://bimspecialist.github.io/toolbox-suite-support/sitemap.xml
+Sitemap: https://bimspecialist.github.io/microsoft-tools/sitemap.xml

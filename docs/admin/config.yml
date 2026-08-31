@@ -1,13 +1,13 @@
 backend:
   name: github
-  repo: bimspecialist/toolbox-suite-support
+  repo: bimspecialist/microsoft-tools
   branch: content-editor
   auth_methods: [token]
 
-site_url: https://bimspecialist.github.io/toolbox-suite-support/
-display_url: https://bimspecialist.github.io/toolbox-suite-support/
+site_url: https://bimspecialist.github.io/microsoft-tools/
+display_url: https://bimspecialist.github.io/microsoft-tools/
 media_folder: docs/uploads
-public_folder: /toolbox-suite-support/uploads
+public_folder: /microsoft-tools/uploads
 publish_mode: simple
 
 collections:
